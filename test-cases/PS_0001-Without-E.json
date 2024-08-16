@@ -1,0 +1,40 @@
+{
+	"testCases": [
+		{
+			"name": "3",
+			"inputs": [
+				"2+3+5*2/10"
+			],
+			"expectedOutput": "2",
+			"successPoint": 2,
+			"failurePoint": 0
+		},
+		{
+			"name": "4",
+			"inputs": [
+				"(2*cleopatra+is)+(2^5-1)"
+			],
+			"expectedOutput": "cleopatraiscleopatrais16",
+			"successPoint": 2,
+			"failurePoint": 0
+		},
+		{
+			"name": "5",
+			"inputs": [
+				"7+7-7*7/7^7^2/2*2-2+2"
+			],
+			"expectedOutput": "678223072849",
+			"successPoint": 2,
+			"failurePoint": 0
+		},
+		{
+			"name": "6",
+			"inputs": [
+				"((5-9*(-1)))^(10-2-(5*1))"
+			],
+			"expectedOutput": "64",
+			"successPoint": 2,
+			"failurePoint": 0
+		}
+	]
+}

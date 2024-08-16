@@ -1,0 +1,20 @@
+{
+	"supportedLanguages": ["JAVA", "PYTHON3", "CPP"],
+	"supportedPlatforms": ["WINDOWS", "UBUNTU", "CENTOS", "COMMON", "LINUX"],
+	"problems": [
+		{
+			"id": "PS_0001",
+			"name": "Expressions Parser",
+			"problemStatement": "Build a software program that can parse and evaluate expressions and print computed results based on the defined rules",
+			"description": "Math & String Operations",
+			"testCasesPath": "test-cases/PS_0001.json",
+			"resultsPath": "results/PS_0001",
+			"solutionsPath": "solutions/PS_0001",
+			"executableNamePrefix": "mainApp",
+			"inputCount": 1,
+			"outputCount": 1,
+			"expectedOutput": "",
+			"timeoutInSeconds": 30
+		}
+	]
+}

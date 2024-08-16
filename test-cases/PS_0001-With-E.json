@@ -1,0 +1,44 @@
+{
+	"testCases": [
+		{
+			"name": "10003",
+			"inputs": [
+				"-e",
+				"2+3+5*2/10"
+			],
+			"expectedOutput": "2",
+			"successPoint": 2,
+			"failurePoint": 0
+		},
+		{
+			"name": "10004",
+			"inputs": [
+				"-e",
+				"(2*cleopatra+is)+(2^5-1)"
+			],
+			"expectedOutput": "cleopatraiscleopatrais16",
+			"successPoint": 2,
+			"failurePoint": 0
+		},
+		{
+			"name": "10005",
+			"inputs": [
+				"-e",
+				"7+7-7*7/7^7^2/2*2-2+2"
+			],
+			"expectedOutput": "678223072849",
+			"successPoint": 2,
+			"failurePoint": 0
+		},
+		{
+			"name": "10006",
+			"inputs": [
+				"-e",
+				"((5-9*(-1)))^(10-2-(5*1))"
+			],
+			"expectedOutput": "64",
+			"successPoint": 2,
+			"failurePoint": 0
+		}
+	]
+}
